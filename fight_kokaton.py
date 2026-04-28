@@ -199,6 +199,7 @@ def main():
     score = Score()  # スコア管理インスタンス
     beams = []  # Beamクラスのインスタンスを複数扱うための空のリスト
     explosions = []  # Explosionインスタンス用の空リスト
+    
     clock = pg.time.Clock()
     tmr = 0
     while True:
